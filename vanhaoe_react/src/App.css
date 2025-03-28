@@ -1,0 +1,110 @@
+/* Global page design */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #d6f7f4;
+  color: #1f2470;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: small;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+tr th, tr td {
+  border: 1px solid #120724;
+  color: #1f2470;
+  padding: 20px;
+  text-align: left;
+}
+
+th {
+  background-color: beige;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(155, 208, 255);
+}
+
+
+tr:nth-child(even) {
+  background-color: rgb(219, 238, 255);
+}
+
+/* Form styles */
+input, select {
+  font-family: 'Arial' ;
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #ccc;
+  background-color: rgb(255, 249, 242);
+  color: #120724;
+  box-sizing: border-box;
+  box-shadow: 0 6px 8px rgba(15, 14, 14, 0.2);
+}
+
+/* Button Styles */
+button {
+  font-family: 'Franklin Gothic Medium';
+  background-color: rgb(109, 71, 71);
+  color: rgb(255, 235, 125);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(15, 14, 14, 0.2);
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: pink
+}
+
+/* Nav Styles */
+nav {
+  text-align: center;
+  margin: 20px;
+}
+
+nav a {
+  font-family: 'Franklin Gothic Medium';
+  margin-right: 10px;
+  color: #1f2470;
+  border: 1px solid #120724;
+  padding: 10px;
+  background-color: rgb(219, 238, 255);
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(15, 14, 14, 0.2);
+}
+
+nav a:hover{
+  color: pink;
+  background-color: azure;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  border: 1px solid rgb(21, 19, 24);
+  background-color: rgb(240, 240, 232);
+  padding: 10px;
+  border-radius: 5px;
+}
