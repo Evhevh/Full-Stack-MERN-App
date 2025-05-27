@@ -1,0 +1,41 @@
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# dotenv environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Misc
+*.local
+
+# React specific
+*.cache/
+.cache/
+coverage/
+
+# Optional: ignore IDE folders
+.idea/
+*.sublime-workspace
+*.sublime-project
