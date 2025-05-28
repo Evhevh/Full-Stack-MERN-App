@@ -87,5 +87,5 @@ MIT
 
 ---
 
-©2025 Ethan Van Hao
+© 2025 Ethan Van Hao
 
