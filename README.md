@@ -87,5 +87,5 @@ MIT
 
 ---
 
-© {Current Year} Ethan Van Hao
+©2025 Ethan Van Hao
 
